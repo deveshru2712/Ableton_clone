@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "futura";
+  src: url("./assets/fonts/futura-pt-medium.b650e9c2aaf6.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: futura;
+}
+
+body {
+  background-color: #ffffff;
+}
